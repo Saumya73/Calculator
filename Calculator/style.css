@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+
+.nav{
+    margin: 0 0 5% 0; 
+    /* background-color: grey; */
+    padding: auto;
+    text-align: center;
+    color: yellow;
+
+
+}
+
+/* .calc{ */
+    /* width: 3%; */
+    /* padding: 10px; */
+    /* border: 2px solid gray; */
+    /* margin: 0; */
+    /* text-align: center; */
+    /* background-color: honeydew; */
+    /* margin: 3% 45%; */
+    /* size: 4px; */
+/* } */
+
+input{
+    font-size: 20px;
+    margin: 2% 0 2% 0;
+    color: black;
+    background-color: yellow;
+}
+
+
+.box {
+    width: 30%;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    text-align: center;
+    background-color: honeydew;
+    margin: 1% 30%;
+  }
+
+  .bt{
+      /* size: 40px; */
+      color: gray;
+      margin: 10px;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+      margin: 10px;
+       border-radius: 12px; 
+      /* display: inline-block; */
+      /* background-color: black; */
+  }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    
+  </head>
+  <body>
+      <h1 class="nav">Calculator</h1>
+
+    <div class="box">
+
+    <div>
+        <input type="text" name="screen" id="input">
+    </div>
+
+    <table class="dec"> 
+      <tr>
+   <td>  <button type="button" class="bt" onclick="number('1')">1</button> </td>
+   <td>  <button type="button" class="bt" onclick="number('2')">2</button> </td>
+<td> <button type="button" class="bt" onclick="number('3')">3</button></td>
+<td> <button type="button" class="bt" onclick="number('+')">+</button> </td>
+      </tr>
+
+    <tr>
+        <td>   <button type="button" class="bt" onclick="number('4')">4</button></td>
+        <td>  <button type="button" class="bt" onclick="number('5')">5</button></td>
+        <td>   <button type="button" class="bt" onclick="number('6')">6</button></td>
+        <td>   <button type="button" class="bt" onclick="number('-')">-</button></td>
+    </tr>
+
+       <tr>
+        <td>   <button type="button" class="bt" onclick="number('7')">7</button></td>
+        <td>   <button type="button" class="bt" onclick="number('8')">8</button></td>
+        <td>   <button type="button" class="bt" onclick="number('9')">9</button></td>
+        <td>  <button type="button" class="bt" onclick="number('*')">x</button></td>
+       </tr>
+
+       <tr>
+        <td>  <button type="button" class="bt" onclick="number('0')">0</button></td>
+        <td>  <button type="button" class="bt" onclick="number('/')">/</button></td>
+        <td>  <button type="button"class="bt" onclick="number('.')">.</button></td>
+        <td>  <button type="button" class="bt" onclick="clearResult()">C</button></td>
+       </tr>
+
+       <tr>
+        <td>   <button type="button" class="bt" onclick="number('(')">(</button></td>
+        <td>  <button type="button" class="bt" onclick="number(')')">)</button></td>
+        <td>   <button type="button" class="bt" onclick="deleteChar()">Dlt</button></td>
+        <td>   <button type="button" class="bt" onclick="result()">=</button></td>
+    </tr>
+ 
+    </table>
+       
+       </div>
+
+    <script src="index.js"></script>
+      </body>
+</html>
